@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.hi{
+    background-color: rgb(153, 252, 153);
+    width:20vw;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+.hi nav{
+    padding:45px;
+}
+.hi nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.hi nav li a{
+    text-decoration: none;
+
+}
+.main{
+    /*background-color: yellow;*/
+    width:80vw;
+}
+
+.container{
+    display:flex;
+}
+.info{
+    /*background-color:coral;*/
+    height: 60vh;
+    width:70vw;
+    margin: 144px auto;
+    justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.dev{
+    display:flex;
+    width:40vw;
+    justify-content: center;
+    flex-direction: column;
+}
+.dev1{
+font-size: 85px;
+}
+.name{
+font-size: 70px;
+font-weight: bold;
+}
+.about{
+font-size: 50px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+      padding: 9px 14px;
+      border-radius: 22px;
+      color: white;
+      background-color: rgb(28, 231, 106);
+      font-weight: bold;
+      font-size: 21px;
+      margin: 0 3px;
+      cursor: pointer;
+}
+.buttons button:hover{
+    color:rgb(27, 50, 5);
+}
+.pic img{
+    float: right;
+    height:40vh;
+    width:20vw;
+    position:relative;top: -250px;
+    padding-left:100px;
+}
+.contactinfo{
+    margin: 0;
+    padding:0;
+    background-color: white;height: 100%;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.contactinfo h1{
+ font-family: 'Roboto Slab', serif;
+ text-align: center;
+}
+.contactinfo form{
+     font-size: xx-large;
+    padding: 22px 41% 0px 35px;
+   
+}
+.contactinfo img{
+    float:right;
+    position:relative;top:-45%;
+    height: 40%;
+    width:40%;
+}
+.contactinfo form div input{
+ width: 16vw;
+ border-radius: 5px;
+ margin:6px 0;
+ padding: 3px;
+}
+.contactinfo form button{
+    padding: 9px 14px;
+      border-radius: 22px;
+      color: white;
+      background-color: rgb(28, 231, 106);
+      font-weight: bold;
+      font-size: 21px;
+      margin: 0 3px;
+      cursor: pointer;
+   
+}
+.contactinfo form button:hover{
+    color:rgb(27, 50, 5);
+}
+.img3 video{
+    
+    float: right;
+    height: 40vh;
+    width: 23vw;
+    position: relative;
+    top: -430px;
+    padding-left: 100px;
+
+}
+.dev li a {
+    text-decoration: none;
+}
